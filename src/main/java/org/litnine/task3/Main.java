@@ -69,7 +69,7 @@ public class Main {
             if (userMove >= 0 && userMove <= args.length) break;
             System.out.println("Option out of bounds.");
         }
-
+        userMove--;
         System.out.println("Your move: " + args[userMove]);
         System.out.println("Computer move: " + args[computerMove]);
 
